@@ -65,6 +65,8 @@ Messages identified by the advanced delivery policy aren't security threats, so 
     - _Read-only access to the advanced delivery policy_: Membership in the **Global Reader** or **Security Reader** role groups in Email & collaboration RBAC.
       - **View-Only Organization Management** in Exchange Online RBAC.
   - [Microsoft Entra permissions](/entra/identity/role-based-access-control/manage-roles-portal): Membership in the **Global Administrator**<sup>\*</sup>, **Security Administrator**, **Global Reader**, or **Security Reader** roles gives users the required permissions _and_ permissions for other features in Microsoft 365.
+  -  _Create, modify, or remove configured settings in the advanced delivery policy_: **Global Administrator**<sup>\*</sup>, or **Security Administrator** role.
+  - _Read-only access to the advanced delivery policy_: **Global Reader**, or **Security Reader** role.
 
     > [!IMPORTANT]
     > <sup>\*</sup> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
