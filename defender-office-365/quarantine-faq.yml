@@ -324,3 +324,11 @@ sections:
           I can't see all recipients of a quarantined message. What's going on?
         answer: |
           Admins can use [Preview message](quarantine-admin-manage-messages-files.md#preview-email-from-quarantine) or [View message header](quarantine-admin-manage-messages-files.md#view-email-message-headers) to see the complete list of recipients.
+
+      - question: |
+         I can't see quarantine notifications in Explorer
+        answer: |
+          By default, quarantine notifications are not visible in Explorer.
+
+
+          
